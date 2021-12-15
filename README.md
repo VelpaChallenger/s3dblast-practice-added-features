@@ -18,12 +18,16 @@ Note: This method does not require you download any files from this repository.
 
 ## Features
 1. Start+A restarts the stage from the beginning, ignoring any checkpoints you have attained.
-2. Start+(B+A) opens level select
+2. Start+B opens level select
 3. Clearing a stage puts you back at the beginning of the stage after the score tally.
-4. The lives display is replaced by the stage's frame counter. You have infinite lives.
-5. The rings display is replaced by the stage's frame counter expressed in mss format. You still have whatever many rings you collected normally (and can still die if you get hit with 0 rings).
-6. The "RINGS" text is replaced with some semitransparent tiles (to indicate the viewer it is no longer a rings display), except when you cling to a big ring checkpoint. At that point, it then
+4. Start+C changes between one of three HUD display modes
+* Mode 1 replaces the lives display with the stage's frame counter, and the number of rings display with the stage frame counter expressed in MSS format.
+* Mode 2 replaces the lives display with the stage's frame counter, but the number of rings display still shows the number of rings.
+* Mode 3 replaces the lives display with the stage's frame counter in MSS format, but the number of rings display still shows the number of rings.
+5. Regardless of what the lives display says, you have infinite lives.
+6. Regardless of what the number of rings display says, you still have whatever many rings you collected normally (and can still die if you get hit with 0 rings).
+7. The "RINGS" text is replaced with some semitransparent tiles (to indicate the viewer it is no longer a rings display), except when you cling to a big ring checkpoint. At that point, it then
 * Replaces the "RINGS" text with the amount of time it took you to make it from the previous checkpoint to the current one for three seconds (if you had previously clinged to another checkpoint earlier in the stage), and then
 * Replaces the "RINGS" text with the amount of time it took you to make it from the start of the stage to the current checkpoint for three seconds, and then
 * Goes back to the semitransparent tiles.
-7. Whatever is currently being drawn instead of the "RINGS" text, it will flash if you have no rings. This is intentional, as it helps runners who may want to do a damage boost strat know if they have any rings.
+8. Whatever is currently being drawn instead of the "RINGS" text, it will flash if you have no rings. This is intentional, as it helps runners who may want to do a damage boost strat know if they have any rings.
