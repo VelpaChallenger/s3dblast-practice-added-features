@@ -1,4 +1,12 @@
+# s3dblast-practice-added-features
+
+Fork from Chrezm's version. I am adding the following features:
+
+- You can use all of the features below *at any time*. No matter if you are receiving damage, in a 'cutscene '(like the running/loop sequence at the beginning of Green Grove 1), grabbing a ring, etc., you can still restart, change the HUD mode, go to the Level Select screen, etc. This is specially helpful for levels where you can get hit very easily while practicing (for example, Gene Gadget Act 1).
+- When you start the game, you are immediately taken to the Level Select screen. This way, you don't even have to skip the initial cutscenes and then pause the game and press B to go to the Level Select screen. You are taken immediately.
+
 # s3dblast-practice
+
 IPS Patcher for the Sonic 3D Blast Practice ROM for the Sonic Speedrunning Community, as well as associated json file.
 
 ## Instructions 
